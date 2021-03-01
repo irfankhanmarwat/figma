@@ -1,0 +1,170 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+@font-face {
+font-family: 'Foco';
+font-style: normal;
+font-weight: normal;
+src: local('Foco'), url('../fonts/FOCO.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Foco Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Foco Bold'), url('../fonts/FOCOBOLD.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Book.woff2') format('woff2'),
+        url('../fonts/Gotham-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Light.woff2') format('woff2'),
+        url('../fonts/Gotham-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Medium.woff2') format('woff2'),
+        url('../fonts/Gotham-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Bold.woff2') format('woff2'),
+        url('../fonts/Gotham-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-XLight.woff2') format('woff2'),
+        url('../fonts/Gotham-XLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Black.woff2') format('woff2'),
+        url('../fonts/Gotham-Black.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+	font-family: 'Gotham';
+}
+.bg-NyBlue{
+	background: #2f3650;
+}
+
+.font-gotham{
+	font-family: 'Gotham';
+}
+
+.font-foco{
+	font-family: 'Foco';
+}
+
+.text-orange{
+	color: #fbad18;
+}
+.banner_home1241{
+	background: url(../images/banner-top.png) no-repeat center center;
+	background-size: cover;
+}
+.text-8xl{
+	font-size:60px
+}
+.text-9xl{
+	font-size: 90px;
+}
+.bg-orange{background: #fbad18}
+.bg-orange-1{background:#f69915;}
+.bg-orange-2{background:#f9a617;}
+.bg-orange-3{background:#fbad18;}
+.bg-orange-4{background:#fdbb1a;}
+.banner_home1242{
+	background: url(../images/bg_ref_1292.png) no-repeat center center;
+	background-size: cover;
+}
+.banner_home1244{
+	background: url(../images/foster_clay_disputes_and_litigation.png) no-repeat center center;
+	background-size: cover;
+}
+.banner_home1248{
+	background: url(../images/foster_clay_family.png) no-repeat center center;
+	background-size: cover;	
+}
+.banner_home1250{
+	background: url(../images/foster_clay_commercial_and_business.png) no-repeat center center;
+	background-size: cover;	
+}
+.banner_home1252{
+	background: url(../images/foster_clay_employment.png) no-repeat center center;
+	background-size: cover;	
+}
+.banner_home1254{
+	background: url(../images/foster_clay_moving_home.png) no-repeat center center;
+	background-size: cover;	
+}
+.banner_home1256{
+	background: url(../images/foster_clay_wills.png) no-repeat center center;
+	background-size: cover;	
+}
+img{
+	max-width: 100%;
+}
+@media (min-width:1600px){
+.text-8xl{
+	font-size:100px
+}
+.text-9xl{
+	font-size: 110px;
+}
+}
+@media (min-width:768px){
+.featur{
+	clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+}
+.featur-2{
+	clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+	margin-left: -105px;
+}
+.featur-last{
+	margin-left: -105px;
+}
+.logo {
+    width: 250px;
+}
+}
+@media (max-width:1093px){
+	.text-8xl {
+	    font-size: 30px;
+	}
+	.text-9xl{
+		font-size: 40px;
+	}
+}
