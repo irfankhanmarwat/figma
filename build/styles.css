@@ -17980,7 +17980,9 @@ video {
     width: 100%;
     height: 100%;
 }
-
+.header{
+  background:#fafafa;
+}
 @media (max-width:1093px){
   .text-8xl {
     font-size: 30px;
